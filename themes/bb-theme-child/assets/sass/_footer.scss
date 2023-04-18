@@ -1,0 +1,100 @@
+/* === FOOTER === */
+section#footer {
+    background: $footer-background-color;
+}
+
+section#footer p {
+    color: $footer-text-color;
+}
+
+section#footer h6 {
+    color: $footer-heading-color;
+    text-transform: uppercase;
+}
+
+section#footer a {
+    color: $footer-link-color;
+}
+
+section#footer a:hover {
+    color: $hover-color;
+}
+
+footer .fl-module-icon {
+    background: transparent;
+    margin: 0;
+    padding: 0;
+}
+
+footer #social .fl-module-icon * {
+    color: $footer-link-color;
+}
+
+footer #social .fl-icon i::before {
+    font-size: $size-xx-medium;
+    margin-right: 0;
+}
+
+footer #social .fl-module-icon *:hover {
+    color: $hover-color;
+}
+
+footer .fl-module-icon .fl-module-content {
+    margin: 0;
+}
+
+footer .fl-module-icon .fl-icon {
+    vertical-align: middle;
+}
+
+footer .fl-module-icon .fl-icon i {
+    text-align: center;
+    width: 40px;
+}
+
+#cta {
+    background-image: linear-gradient(0deg, $footer-background-color 50%, $background-color 50%);
+}
+
+#cta .fl-module-callout {
+    background: transparent;
+    padding: 20px;
+}
+
+#cta .fl-callout h5 {
+    color: $charcoal;
+}
+
+#cta .fl-callout a {
+    color: $link-color;
+}
+
+#cta .fl-callout-text p {
+    color: $charcoal;
+    font-size: $size-medium;
+}
+
+#cta .fl-col {
+    background: $white;
+}
+
+#cta .fl-col:hover {
+    background: $subheading-color;
+}
+
+#legal {
+    font-size: $size-small;
+}
+
+#legal a {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#subscribe p {
+    color: $white;
+}
+
+#subscribe span.fl-button-text {
+    color: $white;
+}
