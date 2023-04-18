@@ -35,7 +35,8 @@
 
     /* Font family & Size */
     $heading-fonts: "Inter", Arial, sans-serif;
-    $content-fonts: "Open Sans", sans-serif $size-default 18px;
+    $content-fonts: "Open Sans", sans-serif;
+    $size-default: 18px;
     /* REM Size = Expected Font Size (EF) / Default Font Size (DF) */
     $size-xx-small: 0.6rem;
     /* EF: 12px */
@@ -77,14 +78,14 @@
 }
 /* Site */
 html {
-    font-size: var($size-regular);
-    font-family: var($content-fonts);
+    font-size: $size-regular;
+    font-family: $content-fonts;
 }
 
 body,
 #fl-main-content {
-    background: rgba(var($background-color));
-    color: rgba(var($font-color));
+    background: $background-color;
+    color: $font-color;
 }
 
 
