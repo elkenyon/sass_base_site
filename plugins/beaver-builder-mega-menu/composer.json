@@ -1,0 +1,15 @@
+{
+    "name": "jordanleven/beaver-builder-mega-menu",
+    "description": "A Mega Menu plugin for Beaver Builder",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "require": {
+
+    },
+    "require-dev": {
+        "naneau/php-obfuscator": "^0.0.5"
+    },
+    "config": {
+        "vendor-dir": "library/vendor/"
+    }
+}

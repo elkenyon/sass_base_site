@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/library/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/library/vendor/naneau/php-obfuscator" />
+      <excludeFolder url="file://$MODULE_DIR$/library/vendor/nikic/php-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/library/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/library/vendor/symfony/config" />
+      <excludeFolder url="file://$MODULE_DIR$/library/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/library/vendor/symfony/debug" />
+      <excludeFolder url="file://$MODULE_DIR$/library/vendor/symfony/dependency-injection" />
+      <excludeFolder url="file://$MODULE_DIR$/library/vendor/symfony/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/library/vendor/symfony/filesystem" />
+      <excludeFolder url="file://$MODULE_DIR$/library/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/library/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/library/vendor/symfony/yaml" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

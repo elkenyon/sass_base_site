@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/library/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/library/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/library/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/library/vendor/composer" />
+      <path value="$PROJECT_DIR$/library/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/library/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/library/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/library/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/library/vendor/naneau/php-obfuscator" />
+      <path value="$PROJECT_DIR$/library/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/library/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/library/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/library/vendor/symfony/yaml" />
+    </include_path>
+  </component>
+</project>

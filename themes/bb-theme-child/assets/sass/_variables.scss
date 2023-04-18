@@ -1,0 +1,140 @@
+:root {
+    /* Primary colors */
+    $heading-color: #1D4F91;
+    $subheading-color: #C3CBD6;
+    $footer-heading-color: #C3CBD6;
+    $footer-text-color: #C3CBD6;
+    $footer-background-color: #1D4F91;
+    $footer-link-color: #fff;
+    $font-color: #63666A;
+    $background-color: #F1F3F8;
+    $link-color: #0071EE;
+    $hover-color: #FF6319;
+    $dark-color: #030B17;
+    $feature-color: #fff;
+    $tab-color: #004A9C;
+    $selection-color: #FFFF73;
+    $menu-second-column: #181c22;
+    $menu-row-hover: #fafafa;
+    $menu-icon-background:  #f3f6f9;
+    $menu-icon-background-hover:  #e8edf4;
+
+    /* Brand colors */
+    $blue: #1D4F91;
+    $grey:  #BFBFC3;
+    $light-grey: #F1F3F8;
+    $cyan: #00B6FF;
+    $orange: #FF6319;
+    $charcoal: #63666A;
+    $white: #fff;
+
+    /* color Opacity */
+    $opaque: 1;
+    $semiopaque: 0.7;
+    $transparent: 0;
+
+    /* Font family & Size */
+    $heading-fonts: "Inter", Arial, sans-serif;
+    $content-fonts: "Open Sans", sans-serif $size-default 18px;
+    /* REM Size = Expected Font Size (EF) / Default Font Size (DF) */
+    $size-xx-small: 0.6rem;
+    /* EF: 12px */
+    $size-x-small: 0.7rem;
+    /* EF: 14px */
+    $size-small: 0.9rem;
+    /* EF: 16px */
+    $size-regular: 1rem;
+    /* EF: 18px | Paragraph */
+    $size-medium: 1.2rem;
+    /* EF: 22px | Heading 6 */
+    $size-x-medium: 1.5rem;
+    /* EF: 28px | Heading 5 */
+    $size-xx-medium: 1.7rem;
+    /* EF: 32px | Heading 4 */
+    $size-large: 2.1rem;
+    /* EF: 38px | Heading 3 */
+    $size-x-large: 2.4rem;
+    /* EF: 44px | Heading 2 */
+    $size-xx-large: 4rem;
+    /* EF: 72px | Heading 1 */
+}
+
+
+[data-theme="dark"] {
+    $heading-color: #fff;
+    $subheading-color:  #C3CBD6;
+    $feature-color: #1C2129;
+    $hover-color:  #FF6319;
+    $footer-background-color: #1C2129;
+    $footer-link-color: #fff;
+    $font-color: #DBDFEA;
+    $tab-color: #fff;
+    $background-color: #030B17;
+    $menu-second-column:  #181c22;
+    $menu-row-hover: #15191e;
+    $menu-icon-background: #1c2a3e;
+    $menu-icon-background-hover: #182941;
+}
+/* Site */
+html {
+    font-size: var($size-regular);
+    font-family: var($content-fonts);
+}
+
+body,
+#fl-main-content {
+    background: rgba(var($background-color));
+    color: rgba(var($font-color));
+}
+
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: $heading-color;
+    font-family: $heading-fonts;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+h1 {
+    font-size: $size-xx-large;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: $size-x-large;
+}
+
+h3 {
+    font-size: $size-large;
+}
+
+h4 {
+    font-size: $size-xx-medium;
+}
+
+h5 {
+    font-size: $size-x-medium;
+}
+
+h6 {
+    font-size: $size-medium;
+}
+
+
+/* Body Copy */
+p,
+li {
+    color: $font-color;
+}
