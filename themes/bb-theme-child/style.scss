@@ -1,6 +1,7 @@
 @import "./assets/sass/variables";
 @import "./assets/sass/footer";
 @import "./assets/sass/header";
+@import "./assets/sass/page";
 
 /* Lead & Leading Copy */
 .lead,
@@ -9,7 +10,9 @@
 .lead ul li {
   font-size: $size-x-medium;
 }
-
+body {
+  background: green !important; 
+}
 .leading p:first-of-type {
   font-size: $size-x-medium;
 }
