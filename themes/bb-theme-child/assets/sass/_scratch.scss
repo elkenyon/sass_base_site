@@ -75,9 +75,9 @@ ul li::marker {
 /* +V1.1 */
 
 /* Selection highlighting */
-::selection {
-  background: $selection-color, $opaque;
-}
+// ::selection {
+//   background: $selection-color, $opaque;
+// }
 
 /* Heading Subtitles */
 .heading-subtitle {

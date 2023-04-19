@@ -285,10 +285,10 @@ ul li::marker {
 
 /* +V1.1 */
 
-/* Selection highlighting */
+/* Selection highlighting
 ::selection {
     background: rgba(var(--selection-color), var(--opaque));
-}
+} */
 
 /* Heading Subtitles */
 .heading-subtitle {
