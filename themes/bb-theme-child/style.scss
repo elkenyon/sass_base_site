@@ -10,9 +10,7 @@
 .lead ul li {
   font-size: $size-x-medium;
 }
-body {
-  background: green !important; 
-}
+
 .leading p:first-of-type {
   font-size: $size-x-medium;
 }
@@ -580,7 +578,7 @@ div.aligncenter {
 
 .wp-caption p.wp-caption-text,
 .wp-caption-text {
-  font-size: $small;
+  font-size: $size-small;
   color: $orange;
   margin-top: 10px;
 }
@@ -1887,7 +1885,7 @@ input.sf-input-text {
   }
 
   section#hero h2 p {
-    font-size: $xx-medium;
+    font-size: $size-xx-medium;
   }
 
   /* +V1.1 - Added to make the header size work with Post Excerpt */
