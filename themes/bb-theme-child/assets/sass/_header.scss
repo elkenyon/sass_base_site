@@ -22,7 +22,7 @@ label.theme-switch {
 }
 
 .slider {
-    background: $dark-color;
+    background: var(--dark-color);
     bottom: 0;
     cursor: pointer;
     left: 0;
@@ -33,7 +33,7 @@ label.theme-switch {
 }
 
 input:checked+.slider {
-    background-color: $orange;
+    background-color: var(--orange);
 }
 
 .slider.round {
@@ -112,32 +112,32 @@ body.admin-bar .sfm-navicon-button {
 
 /* Menu Navigation */
 #navbar {
-    background: $background-color;
+    background: var(--background-color);
 }
 
 .fl-module-menu .fl-menu .menu>li {
     font-weight: 700;
-    font-family: $heading-fonts;
-    font-size: $size-regular;
+    font-family: var(--heading-fonts);
+    font-size: var(--size-regular);
 }
 
 .fl-module-menu .fl-menu .menu>li.current-menu-item a {
-    color: $cyan;
+    color: var(--cyan);
 }
 
 .fl-module-menu .fl-menu .menu>li.current-menu-item a:hover {
-    color: $hover-color;
+    color: var(--hover-color);
 }
 
 .fl-module-menu .fl-menu .menu>li.fl-button a {
     padding: 25px;
-    background: $link-color;
+    background: var(--link-color);
     text-transform: uppercase;
-    color: $white;
+    color: var(--white);
 }
 
 .fl-module-menu .fl-menu .menu>li.fl-button a:hover {
-    background: $hover-color;
+    background: var(--hover-color);
 }
 
 /* Menu Navigation Sticky Settings */
@@ -145,7 +145,7 @@ body.admin-bar .sfm-navicon-button {
     padding: 15px 25px;
 }
 
-/*.fl-theme-builder-header-sticky #navbar { backdrop-filter: blur(6px); background: $background-color)0.2); }*/
+/*.fl-theme-builder-header-sticky #navbar { backdrop-filter: blur(6px); background: var(--background-color)0.2); }*/
 
 /* Header Elements - Logo - Theme Switch - Search - CTA */
 .search-button-container {
@@ -192,7 +192,7 @@ body.admin-bar .sfm-navicon-button {
 
 .menu-logo:hover:after,
 .enterprise-logo a:hover:after {
-    color: $link-color;
+    color: var(--link-color);
     opacity: 1;
 }
 
@@ -225,53 +225,53 @@ body.admin-bar .sfm-navicon-button {
 
 /* Legal Menu */
 ul#menu-legal li {
-    border-left: solid 6px $feature-color;
-    color: $tab-color;
+    border-left: solid 6px var(--feature-color);
+    color: var(--tab-color);
 }
 
 ul#menu-legal li a {
-    color: $tab-color;
+    color: var(--tab-color);
     font-weight: 800;
 }
 
 ul#menu-legal li a:hover {
-    color: $hover-color;
+    color: var(--hover-color);
     font-weight: 800;
 }
 
 ul#menu-legal li.current-menu-item,
 ul#menu-legal li.current-menu-item:hover {
-    border-left: solid 6px $link-color;
+    border-left: solid 6px var(--link-color);
 }
 
 ul#menu-legal li.current-menu-item a,
 ul#menu-legal li.current-menu-item a:hover {
-    color: $link-color;
+    color: var(--link-color);
 }
 
 ul#menu-legal li:hover {
-    border-left: solid 6px $hover-color;
+    border-left: solid 6px var(--hover-color);
 }
 
 ul#menu-legal li:hover a {
-    color: $hover-color;
+    color: var(--hover-color);
 }
 
 @media screen and (max-width: 768px) {
     ul#menu-legal li {
-        border-bottom: solid 6px $feature-color;
-        color: $tab-color;
+        border-bottom: solid 6px var(--feature-color);
+        color: var(--tab-color);
         border-left: none;
     }
 
     ul#menu-legal li.current-menu-item,
     ul#menu-legal li.current-menu-item:hover {
-        border-bottom: solid 6px $link-color;
+        border-bottom: solid 6px var(--link-color);
         border-left: none;
     }
 
     ul#menu-legal li:hover {
-        border-bottom: solid 6px $hover-color;
+        border-bottom: solid 6px var(--hover-color);
         border-left: none;
     }
 }
@@ -310,8 +310,8 @@ ul#menu-legal li:hover a {
 }
 
 .brex-mega-menu>li>a {
-    color: $font-color;
-    font-size: $size-regular;
+    color: var(--font-color);
+    font-size: var(--size-regular);
     padding: 20px 20px 20px 10px;
 }
 
@@ -330,7 +330,7 @@ ul#menu-legal li:hover a {
 }
 
 a.mega-menu-saved-row-a:hover .fa-angle-down:before {
-    color: $link-color;
+    color: var(--link-color);
 }
 
 .mega-menu-row {
@@ -344,16 +344,16 @@ a.mega-menu-saved-row-a:hover .fa-angle-down:before {
     border-radius: 4px;
     box-shadow: 0 5px 12px -3px #0005;
     overflow: hidden;
-    background: $feature-color;
+    background: var(--feature-color);
 }
 
 .mega-menu-row .fl-rich-text a {
-    font-size: $size-regular;
-    color: $font-color;
+    font-size: var(--size-regular);
+    color: var(--font-color);
 }
 
 .mega-menu-row .fl-rich-text a:hover {
-    color: $orange;
+    color: var(--orange);
 }
 
 .mega-menu-row .fl-icon-wrap {
@@ -368,11 +368,11 @@ a.mega-menu-saved-row-a:hover .fa-angle-down:before {
 }
 
 .mega-menu-row .fl-module-icon .fl-icon-wrap p strong {
-    font-size: $size-regular;
+    font-size: var(--size-regular);
 }
 
 .mega-menu-row .fl-module-icon .fl-icon-wrap p {
-    font-size: $size-small;
+    font-size: var(--size-small);
     line-height: 1.2rem;
 }
 
@@ -400,11 +400,11 @@ a.mega-menu-saved-row-a:hover .fa-angle-down:before {
     opacity: 0;
     transform: translateY(10px) rotate(150deg);
     transition: 0.5s ease all;
-    color: $orange;
+    color: var(--orange);
 }
 
 .mega-menu-row .fl-module-icon:hover {
-    background: $menu-row-hover;
+    background: var(--menu-row-hover);
 }
 
 .mega-menu-row .fl-module-icon .fl-icon i {
@@ -412,30 +412,30 @@ a.mega-menu-saved-row-a:hover .fa-angle-down:before {
     width: 45px;
     height: 45px;
     text-align: center;
-    background: $menu-icon-background;
+    background: var(--menu-icon-background);
     border-radius: 4px;
 }
 
 .mega-menu-row .fl-module-icon .fl-icon-wrap:hover i {
-    background: $menu-icon-background-hover;
+    background: var(--menu-icon-background-hover);
 }
 
 .mega-menu-row .fl-module-icon .fl-icon i:before {
-    font-size: $size-x-medium;
-    color: $blue;
+    font-size: var(--size-x-medium);
+    color: var(--blue);
     margin-right: 0px;
 }
 
 html[data-theme="dark"] .mega-menu-row .fl-module-icon .fl-icon i:before {
-    color: $cyan;
+    color: var(--cyan);
 }
 
 .mega-menu-row .fl-module-icon .fl-icon-wrap:hover i:before {
-    color: $orange !important;
+    color: var(--orange !important);
 }
 
 .mega-menu-col-heading-one {
-    border-bottom: 1px solid $font-color, 0.1;
+    border-bottom: 1px solid var(--font-color, 0.1);
 }
 
 .mega-menu-row .fl-module-icon .fl-icon {
@@ -443,13 +443,13 @@ html[data-theme="dark"] .mega-menu-row .fl-module-icon .fl-icon i:before {
 }
 
 .mega-menu-col-two {
-    background: $menu-second-column;
+    background: var(--menu-second-column);
 }
 
 /* Beaver Builder Mega Menu - Mobile */
 .brex-mobile-menu-container-node .brex-mobile-menu-container {
     overflow: hidden;
-    background-color: $feature-color !important;
+    background-color: var(--feature-color !important);
     padding-top: 70px !important;
 }
 
@@ -458,25 +458,25 @@ html[data-theme="dark"] .mega-menu-row .fl-module-icon .fl-icon i:before {
 }
 
 .brex-mobile-menu-container .brex-mobile-menu-inner .sub-menu li a {
-    font-size: $size-small !important;
+    font-size: var(--size-small !important);
     font-weight: normal !important;
 }
 
 .brex-mobile-menu-container .brex-mobile-menu-inner li a {
-    color: $heading-color !important;
-    font-size: $size-regular !important;
+    color: var(--heading-color !important);
+    font-size: var(--size-regular !important);
 }
 
 .brex-mobile-menu-container .brex-mobile-menu-inner li a:hover {
-    color: $cyan !important;
+    color: var(--cyan !important);
 }
 
 .brex-mobile-menu-container .sub-menu ul.sub-menu> :first-child {
-    border-top: 1px solid $heading-color, 0.5 !important;
+    border-top: 1px solid var(--heading-color, 0.5 !important);
 }
 
 .brex-mobile-menu-container-node .brex-mobile-menu-container .close-icon>i {
-    color: $font-color !important;
+    color: var(--font-color !important);
 }
 
 /* Beaver Builder Mega Menu - Mobile Admin Bar */
@@ -495,7 +495,7 @@ body.admin-bar .brex-mobile-menu-container.brex-mobile-menu-left {
 /* Header - Media Queries */
 @media screen and (max-width: 1600px) {
     .brex-mega-menu-desktop .brex-mega-menu>li>a {
-        font-size: $size-small;
+        font-size: var(--size-small);
         padding: 20px 20px 20px 0px !important;
     }
 }

@@ -3,6 +3,24 @@
 @import "./assets/sass/header";
 @import "./assets/sass/page";
 
+/* Site */
+html {
+  font-size: $size-regular;
+  font-family: $content-fonts;
+}
+
+body,
+#fl-main-content {
+  background-color: var(--background-color);
+  color: var(--font-color);
+}
+
+/* Body Copy */
+p,
+li {
+    color: var(--font-color);
+}
+
 /* Lead & Leading Copy */
 .lead,
 .lead p,
@@ -21,7 +39,7 @@ a {
 }
 
 a:hover {
-  color: $hover-color;
+  color: var(--hover-color);
   text-decoration: none;
   transition: color 0.4s linear;
   transition: background-color 0.4s linear;
@@ -117,7 +135,7 @@ a.fl-button:visited,
   border: none;
   text-align: center;
   border-radius: 0;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 button:hover,
@@ -126,7 +144,7 @@ a.fl-button:hover,
 button:active,
 a.fl-button:active,
 .fl-builder-content a.fl-button:active {
-  background: $hover-color;
+  background: var(--hover-color);
 }
 
 button:hover i,
@@ -182,7 +200,7 @@ table.table td.center {
 }
 
 .table-striped > tbody > tr:nth-of-type(odd) {
-  background-color: $feature-color;
+  background-color: var(--feature-color);
 }
 
 .table th,
@@ -191,7 +209,7 @@ table.table td.center {
 }
 
 .table td {
-  color: $font-color;
+  color: var(--font-color);
   border-bottom: 1px solid $cyan;
 }
 
@@ -527,7 +545,7 @@ section#video h6 {
 }
 
 section#feature .fl-row-content {
-  background: $feature-color;
+  background: --feature-color;
   padding: 80px 40px;
 }
 
@@ -737,13 +755,13 @@ a.pp-post-meta-term:hover {
 
 /* Feature Row */
 #fl-main-content .fl-row.feature {
-  background: $feature-color;
+  background: var(--feature-color);
   padding: 60px 20px;
 }
 
 /* Feature Column */
 .fl-col.feature .fl-col-content {
-  background: $feature-color;
+  background: var(--feature-color);
 }
 
 /*  Resources Section */
@@ -788,7 +806,7 @@ section#resources .pp-content-grid-pagination li a.page-numbers:hover {
 /* Alternate Background Row Module */
 .alternate-background {
   max-width: unset;
-  background: $feature-color;
+  background: var(--feature-color);
 }
 
 /* +V1.1 */
@@ -809,8 +827,8 @@ section#resources .pp-content-grid-pagination li a.page-numbers:hover {
 .top-divider {
   background: linear-gradient(
     180deg,
-    $background-color 150px,
-    $feature-color 150.1px
+    var(--background-color) 150px,
+    var(--feature-color) 150.1px
   );
 }
 
@@ -821,26 +839,26 @@ section#resources .pp-content-grid-pagination li a.page-numbers:hover {
         -2.7deg,
         #fff0 0%,
         #fff0 50%,
-        $feature-color,
+        var(--feature-color),
         0.15 50.3%,
-        $feature-color,
+        var(--feature-color),
         0.35 62.1%,
-        $feature-color,
+        var(--feature-color),
         0.9
       )
       62.4%,
-    $feature-color, 1,
+      var(--feature-color), 1,
     linear-gradient(
       2.7deg,
       #fff0 0%,
       #fff0 49%,
-      $feature-color,
+      var(--feature-color),
       0.15 50.3%,
-      $feature-color,
+      var(--feature-color),
       0.35 62.1%,
-      $feature-color,
+      var(--feature-color),
       0.9 62.4%,
-      $feature-color
+      var(--feature-color)
     );
   width: 100%;
   transform: scaley(-1);
@@ -853,26 +871,26 @@ section#resources .pp-content-grid-pagination li a.page-numbers:hover {
       -2.7deg,
       #fff0 0%,
       #fff0 50%,
-      $background-color,
+      var(--background-color),
       0.15 50.3%,
-      $background-color,
+      var(--background-color),
       0.35 62.1%,
-      $background-color,
+      var(--background-color),
       0.9 62.4%,
-      $background-color,
+      var(--background-color),
       1
     ),
     linear-gradient(
       2.7deg,
       #fff0 0%,
       #fff0 49%,
-      $background-color,
+      var(--background-color),
       0.15 50.3%,
-      $background-color,
+      var(--background-color),
       0.35 62.1%,
-      $background-color,
+      var(--background-color),
       0.9 62.4%,
-      $background-color
+      var(--background-color)
     );
   width: 100%;
   transform: scaley(-1);
@@ -888,12 +906,12 @@ section#resources .pp-content-grid-pagination li a.page-numbers:hover {
   transform: translateY(-11.5px);
   display: block;
   margin: auto;
-  background: $background-color;
+  background: var(--background-color);
 }
 
 /* +V1.1 */
 .alternate-background .fl-separator:after {
-  background: $feature-color;
+  background: var(--feature-color);
 }
 
 /* +V1.1 */
@@ -901,11 +919,11 @@ section#resources .pp-content-grid-pagination li a.page-numbers:hover {
 /* Author Bio Module */
 .fl-module-fl-author-bio .fl-module-content,
 .fl-author-bio {
-  background: $feature-color;
+  background: var(--feature-color);
 }
 
 .fl-author-bio-name {
-  color: $heading-color;
+  color: var(--heading-color);
 }
 
 /* Button Group Module */
@@ -1006,7 +1024,7 @@ section#resources .pp-content-grid-pagination li a.page-numbers:hover {
 
 /* Callout Module Feature with Image */
 .fl-module-callout.feature {
-  background: $feature-color;
+  background: var(--feature-color);
   margin: 20px;
   box-shadow: 0px 2px 10px -5px #0005;
   height: 100%;
@@ -1028,7 +1046,7 @@ section#resources .pp-content-grid-pagination li a.page-numbers:hover {
 
 /* Callout Module Feature with Icon */
 .fl-module-callout.feature-icon {
-  background: $feature-color;
+  background: var(--feature-color);
   margin: 20px;
   box-shadow: 0px 2px 10px -5px #0005;
   height: 100%;
@@ -1038,7 +1056,7 @@ section#resources .pp-content-grid-pagination li a.page-numbers:hover {
 .fl-module-callout.feature-icon .fl-module-content {
   padding: 30px;
   margin: 10px;
-  color: $font-color;
+  color: var(--font-color);
 }
 
 /* Callout Module Feature Code to make buttons appear at bottom always */
@@ -1106,7 +1124,7 @@ section#resources .pp-content-grid-pagination li a.page-numbers:hover {
 
 /* Icon Module */
 .fl-module-icon {
-  background: $feature-color;
+  background: var(--feature-color);
   margin: 20px;
   padding: 15px;
 }
@@ -1125,7 +1143,7 @@ section#resources .pp-content-grid-pagination li a.page-numbers:hover {
 }
 
 .fl-module-icon .fl-icon-text :is(h1, h2, h3, h4, h5, h6) {
-  color: $font-color;
+  color: var(--font-color);
 }
 
 /* xV1.1 */
@@ -1204,7 +1222,7 @@ section#resources .pp-content-grid-pagination li a.page-numbers:hover {
 
 /* Posts Module */
 .fl-post-grid-post {
-  background: $feature-color;
+  background: var(--feature-color);
   border: none;
 }
 
@@ -1277,7 +1295,7 @@ section#resources .pp-content-grid-pagination li a.page-numbers:hover {
   border: none;
   line-height: inherit;
   background: $cyan;
-  color: $background-color;
+  color: var(--background-color);
   margin-right: 8px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -1321,7 +1339,7 @@ a.fl-post-slider-feed-more {
 }
 
 a.fl-post-slider-feed-more:hover {
-  background: $hover-color;
+  background: var(--hover-color);
 }
 
 /* Post Grid */
@@ -1385,7 +1403,7 @@ a.fl-post-slider-feed-more:hover {
 }
 
 .fl-tabs-label {
-  color: $tab-color;
+  color: var(--tab-color);
   font-weight: 800;
 }
 
@@ -1416,7 +1434,7 @@ a.fl-post-slider-feed-more:hover {
 }
 
 .fl-tabs-vertical .fl-tabs-label {
-  border-left: solid 6px $background-color !important;
+  border-left: solid 6px var(--background-color) !important;
 }
 
 .fl-tabs-vertical .fl-tabs-label.fl-tab-active {
@@ -1427,18 +1445,18 @@ a.fl-post-slider-feed-more:hover {
 /* Accordion */
 .fl-accordion-item {
   border-color: $cyan !important;
-  background: $feature-color;
+  background: var(--feature-color);
   padding: 20px;
   margin-bottom: 25px !important;
 }
 
 .fl-accordion-item:hover {
-  border-color: $hover-color !important;
+  border-color: var(--hover-color) !important;
 }
 
 .fl-accordion-item:hover .fl-accordion-button h5,
 .fl-accordion-item:hover .fl-accordion-button i {
-  color: $hover-color, 1 !important;
+  color: var(--hover-color), 1 !important;
 }
 
 .fl-accordion-button-label,
@@ -1541,12 +1559,12 @@ a.fl-post-slider-feed-more:hover {
 /* TOC Module */
 .pp-toc-container {
   padding: 25px 25px 50px 25px;
-  background-color: $feature-color;
+  background-color: var(--feature-color);
 }
 
 .pp-toc-container .pp-toc-header,
 .pp-toc-container .pp-toc-body {
-  background-color: $feature-color;
+  background-color: var(--feature-color);
 }
 
 .pp-toc-container .pp-toc-header {
@@ -1554,7 +1572,7 @@ a.fl-post-slider-feed-more:hover {
 }
 
 .pp-toc-container .pp-toc-header-title {
-  color: $heading-color;
+  color: var(--heading-color);
   font-size: $size-xx-medium;
   font-family: $heading-fonts;
   font-weight: 700;
@@ -1709,7 +1727,7 @@ form.mktoForm,
 
 .mktoHtmlText a,
 .mktoCaptchaDisclaimer a {
-  color: $footer-link-color !important;
+  color: var(--footer-link-color) !important;
 }
 
 /* Marketo Opt-in */
@@ -1739,7 +1757,7 @@ label#LblmktoOptIn::after {
 }
 
 label#LblmktoOptIn::after:hover {
-  color: --color-hover;
+  color: var(--hover-color);
 }
 
 /* Marketo Form Button */
@@ -1779,7 +1797,7 @@ label#LblmktoOptIn::after:hover {
 .searchandfilter h4 {
   display: inline-block;
   margin: 0 20px 0 0;
-  color: $heading-color;
+  color: --heading-color;
   font-size: $size-xx-medium;
 }
 
@@ -1830,7 +1848,7 @@ li.sf-field-tag {
 .searchandfilter ul li li {
   margin: 0 30px 15px 0;
   font-size: 20px;
-  color: $font-color;
+  color: var(--font-color);
   border-bottom: solid 0.15em $cyan, $transparent;
   transition: text-decoration-color 300ms;
   display: inline-block;

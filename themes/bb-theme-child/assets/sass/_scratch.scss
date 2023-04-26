@@ -2,6 +2,18 @@
 @import "./assets/sass/footer";
 @import "./assets/sass/header";
 
+/* Site */
+html {
+  font-size: $size-regular;
+  font-family: $content-fonts;
+}
+
+body,
+#fl-main-content {
+  background-color: $background-color;
+  color: $font-color;
+}
+
 /* Lead & Leading Copy */
 .lead,
 .lead p,
@@ -75,9 +87,9 @@ ul li::marker {
 /* +V1.1 */
 
 /* Selection highlighting */
-// ::selection {
-//   background: $selection-color, $opaque;
-// }
+::selection {
+  background: $selection-color, $opaque;
+}
 
 /* Heading Subtitles */
 .heading-subtitle {
@@ -526,7 +538,7 @@ section#video h6 {
 }
 
 section#feature .fl-row-content {
-  background: $feature-color;
+  background-color: $feature-color;
   padding: 80px 40px;
 }
 
@@ -1738,7 +1750,7 @@ label#LblmktoOptIn::after {
 }
 
 label#LblmktoOptIn::after:hover {
-  color: --color-hover;
+  color: $hover-color;
 }
 
 /* Marketo Form Button */

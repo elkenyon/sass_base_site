@@ -1,4 +1,17 @@
+<script>
+document.addEventListener("DOMContentLoaded", function(){
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        console.log('DARK')
+        document.documentElement.setAttribute('data-theme', 'dark')
+    }else{
+        console.log('Light')
+        document.documentElement.setAttribute('data-theme', 'light');
+    }
+})
+
+</script>
 <!DOCTYPE html>
+<link >
 <html <?php language_attributes(); ?>>
 <head>
 <?php do_action( 'fl_head_open' ); ?>
@@ -45,3 +58,4 @@ do_action( 'fl_body_open' );
 	<div id="fl-main-content" class="fl-page-content" itemprop="mainContentOfPage" role="main">
 
 		<?php do_action( 'fl_content_open' ); ?>
+
